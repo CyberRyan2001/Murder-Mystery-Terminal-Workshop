@@ -1,0 +1,19 @@
+{
+  "name": "Decoding Murder Mystery",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["README.md"]
+    },
+    "vscode": {
+      "settings": {
+
+        "files.exclude": { "**/.*": true, "case.tar.gz": true },
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "workbench.panel.opensMaximized": "always"
+      },
+      "extensions": ["ms-python.python"]
+    }
+  }
+}
