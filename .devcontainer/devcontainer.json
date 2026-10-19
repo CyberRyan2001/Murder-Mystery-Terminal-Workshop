@@ -2,6 +2,7 @@
   "name": "Decoding Murder Mystery",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
   "postCreateCommand": "bash .devcontainer/setup.sh",
+  "waitFor": "postCreateCommand",
   "customizations": {
     "codespaces": {
       "openFiles": ["README.md"]
